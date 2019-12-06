@@ -1,4 +1,4 @@
-#Prolog 
+#Prolog
 Here is a Python program that reads a collection of files and prints the N words with the maximum occurrences throughout all files.
 
 ## Input
@@ -18,8 +18,8 @@ The​ ​N​ ​words​ ​that​ ​have​ ​the​ ​maximal​ ​numb
 Maximum <N> words:
 Word ‘word-1’ occurred ‘x’ times
 Word ‘word-2’ occurred ‘y’ times
- … 
-Word ‘word-N’ occurred ‘n’ times 
+ …
+Word ‘word-N’ occurred ‘n’ times
  ```
 ## Assumptions
 1. Was written and tested on windows OS
@@ -33,6 +33,6 @@ python.exe C:\Users\nivw2\PycharmProjects\niv\max_words\max_words\cli\max-words.
 
 ## List of tasks to finish
 * write tests using mock
-* read the files in parallel using the multiprocessing Pool
+* ~~read the files in parallel using the multiprocessing Pool~~
 * optimize words data structure during adding words
-* fix root import path issue 
+* fix root import path issue

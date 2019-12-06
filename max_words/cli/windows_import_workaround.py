@@ -16,10 +16,3 @@ def init():
     except ImportError:
         import max_words
     return max_words
-
-
-def init_logger():
-    init()
-    from max_words.app.utils.logger import logger
-    return logger
-
